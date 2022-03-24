@@ -1,12 +1,13 @@
 #
 # Conditional build:
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-unicodedata2.spec)
 %bcond_without	tests	# unit tests
 
 Summary:	Unicodedata backport/updates to Python 2.x
 Summary(pl.UTF-8):	Uaktualnienia danych Unicode dla Pythona 2.x
 Name:		python-unicodedata2
+# keep 13.x for python2 support
 Version:	13.0.0.post2
 Release:	1
 License:	Apache v2.0
