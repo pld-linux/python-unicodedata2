@@ -9,7 +9,7 @@ Summary(pl.UTF-8):	Uaktualnienia danych Unicode dla Pythona 2.x
 Name:		python-unicodedata2
 # keep 13.x for python2 support
 Version:	13.0.0.post2
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/unicodedata2/
